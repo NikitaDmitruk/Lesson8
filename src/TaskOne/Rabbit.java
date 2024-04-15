@@ -9,6 +9,10 @@ public class Rabbit extends Animal {
             System.out.println("Кролик не любит есть " + food);
             voice();
         }
+    }
+
+    @Override
+    public void voice() {
         System.out.println("Кролик пищит!");
     }
 }
